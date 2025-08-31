@@ -1,0 +1,11 @@
+.taskInput {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+.taskInput:focus-visible {
+  outline: 1px lightblue solid;
+  border-right: 8px;
+
+}

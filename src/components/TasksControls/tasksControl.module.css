@@ -1,0 +1,30 @@
+.controlWrapper {
+  font-size: 0.825rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filterLabelContainer {
+  display: flex;
+  gap: 4px;
+}
+
+.filterLabel {
+  padding: 4px 6px;
+  border-radius: 8px;
+  transition: outline 0.2s ease;
+  cursor: pointer;
+}
+
+.filterLabel input {
+  display: none;
+}
+
+.filterLabel:has(input:checked) {
+  border: 2px solid #007bff;
+}
+
+.completeDeleteButton {
+  cursor: pointer;
+}

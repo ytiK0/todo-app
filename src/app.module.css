@@ -1,0 +1,13 @@
+.todoWidget {
+  width: 450px;
+}
+
+.tasksContainer {
+  width: 100%;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.tasksTableRow {
+  border: 1px solid lightgray;
+}

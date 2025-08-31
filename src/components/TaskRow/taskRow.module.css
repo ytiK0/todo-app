@@ -1,0 +1,22 @@
+.rowWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 4px;
+  cursor: pointer;
+}
+
+.doneCheckbox {
+  aspect-ratio: 1 / 1;
+  width: 1rem;
+}
+
+.taskTitle {
+  font-size: 1.5rem;
+}
+
+.taskTitle__done {
+  text-decoration: line-through;
+  color: lightgray;
+}
